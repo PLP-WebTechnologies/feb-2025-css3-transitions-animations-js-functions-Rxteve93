@@ -1,0 +1,114 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 0;
+    background-color: #f9f5f5ec;
+}
+
+/* Header */
+header {
+    background: #0073e6;
+    color: white;
+    padding: 5px;
+    font-size: 1em;
+    text-align: center;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;   
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: lighter;
+
+}
+
+/* Hero Section */
+.hero {
+    padding: 20px;
+}
+
+.hero img {
+    width: 100%;
+    max-width:200px;
+    border-radius: 10px;
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Button Animation */
+button {
+    background-color: #0073e6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background 0.3s, transform 0.3s;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #005bb5;
+    transform: scale(1.1);
+}
+
+/* Animation */
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-10px); }
+    50% { transform: translateX(10px); }
+    75% { transform: translateX(-10px); }
+    100% { transform: translateX(0); }
+}
+
+.shake {
+    animation: shake 0.5s;
+}
+
+#footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;}
+
+    #footer-text {font-style: italic;
+        font-size: x-small;
+    
+    }
+  .ul {
+    text-align: left;
+  }  
+
+  .btn {
+    background-color: #0073e6;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.image-container {
+    display: flex; 
+    justify-content: center;
+    gap: 40px;  
+}
+
+.image-container img {
+    width: 15%;
+    height: auto; 
+    border-radius: 5px; 
+}
